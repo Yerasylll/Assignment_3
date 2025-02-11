@@ -1,3 +1,5 @@
+package project;
+
 import java.util.ArrayList;
 
 import java.util.*;
@@ -39,7 +41,7 @@ public class Charity {
 
     @Override
     public String toString() {
-        return "Charity Name: " + name + " | Entities Count: " + entities.size();
+        return "project.Charity Name: " + name + " | Entities Count: " + entities.size();
     }
 
     public String getName() {

@@ -1,3 +1,5 @@
+package project;
+
 public abstract class Entity {
     private int id;
     private static int idGenerator = 1;
